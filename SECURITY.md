@@ -54,7 +54,7 @@ Incluez dans votre rapport :
 | Mesure | Implémentation |
 |---|---|
 | **Hébergement** | Scaleway HDS (Hébergeur de Données de Santé certifié) |
-| **Backup** | OVH HDS, géo-redondant, rétention 30 jours |
+| **Backup** | Scaleway HDS, géo-redondant, rétention 30 jours |
 | **Chiffrement transit** | TLS 1.3, certificats EV |
 | **Chiffrement repos** | AES-256 (encryption Laravel native + rotation des clés) |
 | **Réseau** | Firewall, DDoS protection, IP whitelisting pour admin |
@@ -75,8 +75,8 @@ Incluez dans votre rapport :
 | Norme | Statut |
 |---|---|
 | **RGPD** | Conforme — DPO désigné, registre des traitements, AIPD |
-| **HDS** | Hébergement certifié, certification complète Q4 2026 |
-| **eIDAS** | Signatures électroniques qualifiées |
+| **HDS** | Hébergement certifié, |
+| **eIDAS** | Signatures électroniques simple |
 | **Audit** | Logs immutables, rétention 7 ans |
 
 ### Périmètre
@@ -86,7 +86,8 @@ Les éléments suivants font partie du périmètre de sécurité :
 - ✅ `*.praticonnect.com` — Application web et API
 - ✅ Application mobile PratiConnect (iOS, Android)
 - ✅ API publique v1
-- ❌ Sites tiers (Viva.com, Google Calendar, LiveKit Cloud)
+- ✅ LiveKit
+- ❌ Sites tiers (Viva.com, Google Calendar)
 - ❌ Ce dépôt de documentation
 
 ---
@@ -137,7 +138,7 @@ Include in your report:
 | Measure | Implementation |
 |---|---|
 | **Hosting** | Scaleway HDS (Certified Health Data Hosting) |
-| **Backup** | OVH HDS, geo-redundant, 30-day retention |
+| **Backup** | Scaleway HDS, geo-redundant, 30-day retention |
 | **Transit encryption** | TLS 1.3, EV certificates |
 | **At-rest encryption** | AES-256 (Laravel native encryption + key rotation) |
 | **Network** | Firewall, DDoS protection, IP whitelisting for admin |
@@ -160,7 +161,8 @@ The following are in scope for security reports:
 - ✅ `*.praticonnect.com` — Web application and API
 - ✅ PratiConnect mobile app (iOS, Android)
 - ✅ Public API v1
-- ❌ Third-party sites (Viva.com, Google Calendar, LiveKit Cloud)
+- ✅ LiveKit
+- ❌ Third-party sites (Viva.com, Google Calendar)
 - ❌ This documentation repository
 
 ---
@@ -213,7 +215,8 @@ The following are in scope for security reports:
 - ✅ `*.praticonnect.com` — אפליקציית ווב ו-API
 - ✅ אפליקציית PratiConnect לנייד (iOS, Android)
 - ✅ API ציבורי v1
-- ❌ אתרי צד שלישי (Viva.com, Google Calendar, LiveKit Cloud)
+- ✅ LiveKit
+- ❌ אתרי צד שלישי (Viva.com, Google Calendar)
 - ❌ מאגר תיעוד זה
 
 </div>
