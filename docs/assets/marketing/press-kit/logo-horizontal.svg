@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="80" viewBox="0 0 400 80">
+  <defs>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D9488"/>
+      <stop offset="100%" style="stop-color:#0F766E"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon compact -->
+  <circle cx="40" cy="40" r="32" fill="url(#tealGradient)"/>
+  <circle cx="40" cy="40" r="20" fill="white"/>
+  <path d="M32 28 L32 52 L52 40 Z" fill="url(#tealGradient)"/>
+  <circle cx="26" cy="22" r="6" fill="#5EEAD4"/>
+  <circle cx="54" cy="22" r="6" fill="#5EEAD4"/>
+  <circle cx="40" cy="62" r="6" fill="#5EEAD4"/>
+  <!-- Text -->
+  <text x="90" y="50" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="700" fill="#0D9488">PratiConnect</text>
+</svg>
